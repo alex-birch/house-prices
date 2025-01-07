@@ -1,0 +1,2862 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f7923ca388b902eaec1e63c9309747d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f7923ca388b902eaec1e63c9309747d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f7923ca388b902eaec1e63c9309747d = L.map(
+                "map_0f7923ca388b902eaec1e63c9309747d",
+                {
+                    center: [-35.28, 138.47],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9dc141012f949c15f1be14c16eb23c0a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9dc141012f949c15f1be14c16eb23c0a.addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var marker_07ab42837ffef4f3287bbb97bcc03bc6 = L.marker(
+                [-35.3116238, 138.4516127],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_03b7fa4633e2b7cbe82327f12250c292 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdc9b3; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                760k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_07ab42837ffef4f3287bbb97bcc03bc6.setIcon(div_icon_03b7fa4633e2b7cbe82327f12250c292);
+        
+    
+        var popup_09fb181562e8f5d35829adb991e1c0df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8d6f3680586cde8eb16f79c5c51efd1e = $(`<div id="html_8d6f3680586cde8eb16f79c5c51efd1e" style="width: 100.0%; height: 100.0%;">         <strong>7 DARWALLA ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/7-darwalla-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $760,000<br>         Beds: 3.0, Baths: 1.0, Cars: 2.0<br>         Sold by: Professionals Christies Beach<br>         Sale Date: 2025-01-06         </div>`)[0];
+                popup_09fb181562e8f5d35829adb991e1c0df.setContent(html_8d6f3680586cde8eb16f79c5c51efd1e);
+            
+        
+
+        marker_07ab42837ffef4f3287bbb97bcc03bc6.bindPopup(popup_09fb181562e8f5d35829adb991e1c0df)
+        ;
+
+        
+    
+    
+            var marker_44352fb03500404dbdea7560fb264f75 = L.marker(
+                [-35.26568089596077, 138.4604767684531],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_3f3ae6a05dadcc84b42209bd868462c8 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fc8d6d; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.1m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_44352fb03500404dbdea7560fb264f75.setIcon(div_icon_3f3ae6a05dadcc84b42209bd868462c8);
+        
+    
+        var popup_035070cf2f270f57d7b667c43c545701 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd7a4792ca429b25b624f82ff20deb01 = $(`<div id="html_dd7a4792ca429b25b624f82ff20deb01" style="width: 100.0%; height: 100.0%;">         <strong>8 ZEPHYR TERRACE PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/8-zephyr-terrace-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,100,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-27         </div>`)[0];
+                popup_035070cf2f270f57d7b667c43c545701.setContent(html_dd7a4792ca429b25b624f82ff20deb01);
+            
+        
+
+        marker_44352fb03500404dbdea7560fb264f75.bindPopup(popup_035070cf2f270f57d7b667c43c545701)
+        ;
+
+        
+    
+    
+            var marker_4e75b1c954e6b1c2fd19def623e7a0e2 = L.marker(
+                [-35.28280164399956, 138.44790482208407],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_80727698691a434e86be9c363d64d63a = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcbda4; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                831k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_4e75b1c954e6b1c2fd19def623e7a0e2.setIcon(div_icon_80727698691a434e86be9c363d64d63a);
+        
+    
+        var popup_b646a45175f592ef87c19b8f965e6e34 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_529a39e3a4f1463d48cb735507c509d5 = $(`<div id="html_529a39e3a4f1463d48cb735507c509d5" style="width: 100.0%; height: 100.0%;">         <strong>11 PENGILLY ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/11-pengilly-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $831,000<br>         Beds: 3.0, Baths: 1.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-23         </div>`)[0];
+                popup_b646a45175f592ef87c19b8f965e6e34.setContent(html_529a39e3a4f1463d48cb735507c509d5);
+            
+        
+
+        marker_4e75b1c954e6b1c2fd19def623e7a0e2.bindPopup(popup_b646a45175f592ef87c19b8f965e6e34)
+        ;
+
+        
+    
+    
+            var marker_6c506e1fd4030ecc4a7807cd2581048f = L.marker(
+                [-35.28324415374482, 138.44577070406046],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a75427d69c516f33251d92924decb520 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fedfd0; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                630k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_6c506e1fd4030ecc4a7807cd2581048f.setIcon(div_icon_a75427d69c516f33251d92924decb520);
+        
+    
+        var popup_36ad8836b118f0c908ef130838e79fe5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9279434b66ea4a3d1ef56defd71e3e16 = $(`<div id="html_9279434b66ea4a3d1ef56defd71e3e16" style="width: 100.0%; height: 100.0%;">         <strong>2/12 WHINNERAH AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/2/12-whinnerah-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $630,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-12-23         </div>`)[0];
+                popup_36ad8836b118f0c908ef130838e79fe5.setContent(html_9279434b66ea4a3d1ef56defd71e3e16);
+            
+        
+
+        marker_6c506e1fd4030ecc4a7807cd2581048f.bindPopup(popup_36ad8836b118f0c908ef130838e79fe5)
+        ;
+
+        
+    
+    
+            var marker_95f4edf7cad8ef7f0a8aa14b71b930ca = L.marker(
+                [-35.263645460282945, 138.46782721893746],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_732c4215bae5407cff2a5266928fa6eb = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb79c; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                865k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_95f4edf7cad8ef7f0a8aa14b71b930ca.setIcon(div_icon_732c4215bae5407cff2a5266928fa6eb);
+        
+    
+        var popup_acc746b7ead860f722408af77a41bac8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24e78ca8690fc713f0801ec6b76bcac9 = $(`<div id="html_24e78ca8690fc713f0801ec6b76bcac9" style="width: 100.0%; height: 100.0%;">         <strong>24 CAFFREY CRESCENT PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/24-caffrey-cres-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $865,000<br>         Beds: 3.0, Baths: 1.0, Cars: nan<br>         Sold by: Alexander Real Estate<br>         Sale Date: 2024-12-21         </div>`)[0];
+                popup_acc746b7ead860f722408af77a41bac8.setContent(html_24e78ca8690fc713f0801ec6b76bcac9);
+            
+        
+
+        marker_95f4edf7cad8ef7f0a8aa14b71b930ca.bindPopup(popup_acc746b7ead860f722408af77a41bac8)
+        ;
+
+        
+    
+    
+            var marker_b20190c71c9da36d50867b9dbfc67709 = L.marker(
+                [-35.27588282797134, 138.44535936210022],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_b6a30a8034cbf01a20321ae862e96338 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fed8c7; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                670k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_b20190c71c9da36d50867b9dbfc67709.setIcon(div_icon_b6a30a8034cbf01a20321ae862e96338);
+        
+    
+        var popup_66bb83b826df92275afaab4df21f5bdd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b990910c044edcbdffbe6caad2afa43 = $(`<div id="html_9b990910c044edcbdffbe6caad2afa43" style="width: 100.0%; height: 100.0%;">         <strong>2 CROSER AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/2-croser-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $670,000<br>         Beds: 4.0, Baths: 2.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-12-20         </div>`)[0];
+                popup_66bb83b826df92275afaab4df21f5bdd.setContent(html_9b990910c044edcbdffbe6caad2afa43);
+            
+        
+
+        marker_b20190c71c9da36d50867b9dbfc67709.bindPopup(popup_66bb83b826df92275afaab4df21f5bdd)
+        ;
+
+        
+    
+    
+            var marker_5e574b9e439424daa2d261941f13c5b8 = L.marker(
+                [-35.28851171319922, 138.45019357627353],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_f84e14aa57d3f0dce0b6097df6e14690 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcc3ab; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                799k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_5e574b9e439424daa2d261941f13c5b8.setIcon(div_icon_f84e14aa57d3f0dce0b6097df6e14690);
+        
+    
+        var popup_b81e47135f7e047667ce38832bf83d98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4cf115bcf28ed19dd9a2fa7636fb0b2b = $(`<div id="html_4cf115bcf28ed19dd9a2fa7636fb0b2b" style="width: 100.0%; height: 100.0%;">         <strong>13 DOVER STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/13-dover-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $799,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-12-20         </div>`)[0];
+                popup_b81e47135f7e047667ce38832bf83d98.setContent(html_4cf115bcf28ed19dd9a2fa7636fb0b2b);
+            
+        
+
+        marker_5e574b9e439424daa2d261941f13c5b8.bindPopup(popup_b81e47135f7e047667ce38832bf83d98)
+        ;
+
+        
+    
+    
+            var marker_a53e23fb5e4dff7b4b7f61e43ceb56e2 = L.marker(
+                [-35.272588182382016, 138.4450357028587],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_bfc6080db5ed4df73e3ef7d29dec5b21 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #9d0d14; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                2.0m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_a53e23fb5e4dff7b4b7f61e43ceb56e2.setIcon(div_icon_bfc6080db5ed4df73e3ef7d29dec5b21);
+        
+    
+        var popup_1ed150430e234fd689ca4e86950d5baf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_37e23cee3dd9e89bc94cf4104ddd33f6 = $(`<div id="html_37e23cee3dd9e89bc94cf4104ddd33f6" style="width: 100.0%; height: 100.0%;">         <strong>165 ESPLANADE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/165-esplanade-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $2,000,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Ray White Glenelg<br>         Sale Date: 2024-12-20         </div>`)[0];
+                popup_1ed150430e234fd689ca4e86950d5baf.setContent(html_37e23cee3dd9e89bc94cf4104ddd33f6);
+            
+        
+
+        marker_a53e23fb5e4dff7b4b7f61e43ceb56e2.bindPopup(popup_1ed150430e234fd689ca4e86950d5baf)
+        ;
+
+        
+    
+    
+            var marker_905e64770c3d7b907fdeea51cc45bbbb = L.marker(
+                [-35.277465916689195, 138.44835172382128],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_d63dfbadf08d8873c9b22dec75f60e13 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd5c4; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                680k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_905e64770c3d7b907fdeea51cc45bbbb.setIcon(div_icon_d63dfbadf08d8873c9b22dec75f60e13);
+        
+    
+        var popup_7a10f48a9b0b9de6a18dc5f8ef91b054 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b7a4135f9e11df812a3c2f842272961 = $(`<div id="html_1b7a4135f9e11df812a3c2f842272961" style="width: 100.0%; height: 100.0%;">         <strong>3 POLDEN STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/3-polden-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $680,000<br>         Beds: 3.0, Baths: 1.0, Cars: 4.0<br>         Sold by: nan<br>         Sale Date: 2024-12-20         </div>`)[0];
+                popup_7a10f48a9b0b9de6a18dc5f8ef91b054.setContent(html_1b7a4135f9e11df812a3c2f842272961);
+            
+        
+
+        marker_905e64770c3d7b907fdeea51cc45bbbb.bindPopup(popup_7a10f48a9b0b9de6a18dc5f8ef91b054)
+        ;
+
+        
+    
+    
+            var marker_c3d679ac2b8f19f08b51e339dda7ff36 = L.marker(
+                [-35.26764938519068, 138.46048483847406],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_78d24f18d2465562ed073e655341ec78 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee3d7; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                585k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_c3d679ac2b8f19f08b51e339dda7ff36.setIcon(div_icon_78d24f18d2465562ed073e655341ec78);
+        
+    
+        var popup_f6c2d540f66fc6ed454fa2ef90a43322 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_49fd4c540858d7b49c9d05ed49a70efd = $(`<div id="html_49fd4c540858d7b49c9d05ed49a70efd" style="width: 100.0%; height: 100.0%;">         <strong>20 JAGUAR AVENUE PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/20-jaguar-ave-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $585,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Southgate Real Estate<br>         Sale Date: 2024-12-19         </div>`)[0];
+                popup_f6c2d540f66fc6ed454fa2ef90a43322.setContent(html_49fd4c540858d7b49c9d05ed49a70efd);
+            
+        
+
+        marker_c3d679ac2b8f19f08b51e339dda7ff36.bindPopup(popup_f6c2d540f66fc6ed454fa2ef90a43322)
+        ;
+
+        
+    
+    
+            var marker_007128fdf408d221454e4bd9813a34df = L.marker(
+                [-35.272588182382016, 138.4450357028587],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_df12aa016ae6942a18c5d4e52c557f45 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #67000d; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                2.2m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_007128fdf408d221454e4bd9813a34df.setIcon(div_icon_df12aa016ae6942a18c5d4e52c557f45);
+        
+    
+        var popup_0e29f834ebd5b1ac2c238265e9d33c4f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_71274992aeeb6fe6e35a73c80e13f1a1 = $(`<div id="html_71274992aeeb6fe6e35a73c80e13f1a1" style="width: 100.0%; height: 100.0%;">         <strong>165B ESPLANADE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/165b-esplanade-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $2,200,000<br>         Beds: nan, Baths: nan, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-12-18         </div>`)[0];
+                popup_0e29f834ebd5b1ac2c238265e9d33c4f.setContent(html_71274992aeeb6fe6e35a73c80e13f1a1);
+            
+        
+
+        marker_007128fdf408d221454e4bd9813a34df.bindPopup(popup_0e29f834ebd5b1ac2c238265e9d33c4f)
+        ;
+
+        
+    
+    
+            var marker_92eb1a23e1d7917c2060e28922657fe5 = L.marker(
+                [-35.28397881485224, 138.4561478465077],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_f07c54876b1be79a24c2d9c943369a9d = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcaa8d; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                936k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_92eb1a23e1d7917c2060e28922657fe5.setIcon(div_icon_f07c54876b1be79a24c2d9c943369a9d);
+        
+    
+        var popup_796af7a87858ab71312a82a6ccdeda3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01ece3fb4f3d885cdca95b9f0ef193cf = $(`<div id="html_01ece3fb4f3d885cdca95b9f0ef193cf" style="width: 100.0%; height: 100.0%;">         <strong>7 KAURNA AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/7-kaurna-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $935,500<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-18         </div>`)[0];
+                popup_796af7a87858ab71312a82a6ccdeda3c.setContent(html_01ece3fb4f3d885cdca95b9f0ef193cf);
+            
+        
+
+        marker_92eb1a23e1d7917c2060e28922657fe5.bindPopup(popup_796af7a87858ab71312a82a6ccdeda3c)
+        ;
+
+        
+    
+    
+            var marker_c524d9562de7e150477b61cea2c6f574 = L.marker(
+                [-35.27797940166072, 138.45125254829844],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a34d09d2a4a8574ae09d77494b046e24 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fed8c7; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                670k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_c524d9562de7e150477b61cea2c6f574.setIcon(div_icon_a34d09d2a4a8574ae09d77494b046e24);
+        
+    
+        var popup_9282d1983c83a615f04285faea80312a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b88230af6cd605d6d78e5eaaebf3de60 = $(`<div id="html_b88230af6cd605d6d78e5eaaebf3de60" style="width: 100.0%; height: 100.0%;">         <strong>15 LEAKER AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/15-leaker-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $670,000<br>         Beds: 2.0, Baths: 1.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-16         </div>`)[0];
+                popup_9282d1983c83a615f04285faea80312a.setContent(html_b88230af6cd605d6d78e5eaaebf3de60);
+            
+        
+
+        marker_c524d9562de7e150477b61cea2c6f574.bindPopup(popup_9282d1983c83a615f04285faea80312a)
+        ;
+
+        
+    
+    
+            var marker_09ced236be62188dd6f6457dd4b9bf87 = L.marker(
+                [-35.28634377006757, 138.44620997766012],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a414471748a24c0fc68ddda3e6e02f65 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd0bc; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                720k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_09ced236be62188dd6f6457dd4b9bf87.setIcon(div_icon_a414471748a24c0fc68ddda3e6e02f65);
+        
+    
+        var popup_e28de5e1e297348eb70cadbd3ecb31cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e983fa12141a2a782344e1e3bd190e3 = $(`<div id="html_4e983fa12141a2a782344e1e3bd190e3" style="width: 100.0%; height: 100.0%;">         <strong>12 PALMER STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/12-palmer-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $720,000<br>         Beds: 3.0, Baths: 1.0, Cars: nan<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-12-15         </div>`)[0];
+                popup_e28de5e1e297348eb70cadbd3ecb31cc.setContent(html_4e983fa12141a2a782344e1e3bd190e3);
+            
+        
+
+        marker_09ced236be62188dd6f6457dd4b9bf87.bindPopup(popup_e28de5e1e297348eb70cadbd3ecb31cc)
+        ;
+
+        
+    
+    
+            var marker_c8b8d448a4b32d05e3b51f93cdd7062a = L.marker(
+                [-35.28206556949119, 138.4642824702078],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_cfa37e787407306763babcdb23f7c3f5 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcbb6; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                750k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_c8b8d448a4b32d05e3b51f93cdd7062a.setIcon(div_icon_cfa37e787407306763babcdb23f7c3f5);
+        
+    
+        var popup_4dfcb60d69f4185bbba1d80aa19db792 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a86c1e9622b9d571cc40ddd6ad52fd26 = $(`<div id="html_a86c1e9622b9d571cc40ddd6ad52fd26" style="width: 100.0%; height: 100.0%;">         <strong>10 TANGERINE COURT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/10-tangerine-ct-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $750,000<br>         Beds: 5.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-13         </div>`)[0];
+                popup_4dfcb60d69f4185bbba1d80aa19db792.setContent(html_a86c1e9622b9d571cc40ddd6ad52fd26);
+            
+        
+
+        marker_c8b8d448a4b32d05e3b51f93cdd7062a.bindPopup(popup_4dfcb60d69f4185bbba1d80aa19db792)
+        ;
+
+        
+    
+    
+            var marker_8dbf23a2cf75072462cdd1d358f4d360 = L.marker(
+                [-35.28851171319922, 138.45019357627353],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_8b709533fba407e2c63ae71da4f883e6 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdc5ae; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                780k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_8dbf23a2cf75072462cdd1d358f4d360.setIcon(div_icon_8b709533fba407e2c63ae71da4f883e6);
+        
+    
+        var popup_9e6af2307e00f0b30f339988e26696a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7475a258fe3deb7a7b52611160b1a15b = $(`<div id="html_7475a258fe3deb7a7b52611160b1a15b" style="width: 100.0%; height: 100.0%;">         <strong>73 DOVER STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/73-dover-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $780,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-12         </div>`)[0];
+                popup_9e6af2307e00f0b30f339988e26696a5.setContent(html_7475a258fe3deb7a7b52611160b1a15b);
+            
+        
+
+        marker_8dbf23a2cf75072462cdd1d358f4d360.bindPopup(popup_9e6af2307e00f0b30f339988e26696a5)
+        ;
+
+        
+    
+    
+            var marker_77a1de6d13619da7de0508f449b0b189 = L.marker(
+                [-35.26202405003515, 138.4668188297128],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_2d54c6546918b4be79e9868ca77438b8 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb398; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                890k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_77a1de6d13619da7de0508f449b0b189.setIcon(div_icon_2d54c6546918b4be79e9868ca77438b8);
+        
+    
+        var popup_3608613db47f465439abfc99e986bab4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_42bb5b3af965a6384b1c1fccf41dba85 = $(`<div id="html_42bb5b3af965a6384b1c1fccf41dba85" style="width: 100.0%; height: 100.0%;">         <strong>44 PORT ROAD PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/44-port-rd-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $890,000<br>         Beds: 3.0, Baths: 2.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-12-12         </div>`)[0];
+                popup_3608613db47f465439abfc99e986bab4.setContent(html_42bb5b3af965a6384b1c1fccf41dba85);
+            
+        
+
+        marker_77a1de6d13619da7de0508f449b0b189.bindPopup(popup_3608613db47f465439abfc99e986bab4)
+        ;
+
+        
+    
+    
+            var marker_370a7039e28aba627e03084717c0cae0 = L.marker(
+                [-35.27169871823231, 138.44876259492474],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_5787685514b1872a83ffe9405115d0d1 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb99f; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                856k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_370a7039e28aba627e03084717c0cae0.setIcon(div_icon_5787685514b1872a83ffe9405115d0d1);
+        
+    
+        var popup_6e44f361693982167228f0bc9d9ed113 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf82559e6cc85c1679fdb0fdb7010acf = $(`<div id="html_bf82559e6cc85c1679fdb0fdb7010acf" style="width: 100.0%; height: 100.0%;">         <strong>28 ATKINSON CRESCENT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/28-atkinson-cres-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $856,000<br>         Beds: 4.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-12-11         </div>`)[0];
+                popup_6e44f361693982167228f0bc9d9ed113.setContent(html_bf82559e6cc85c1679fdb0fdb7010acf);
+            
+        
+
+        marker_370a7039e28aba627e03084717c0cae0.bindPopup(popup_6e44f361693982167228f0bc9d9ed113)
+        ;
+
+        
+    
+    
+            var marker_e26d99eeee4fe5e5e9146ec86943b895 = L.marker(
+                [-35.27304624573442, 138.46704984501807],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_73212c7564195d695a5d218031c5c9af = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd1be; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                710k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_e26d99eeee4fe5e5e9146ec86943b895.setIcon(div_icon_73212c7564195d695a5d218031c5c9af);
+        
+    
+        var popup_9111b9660cae65abe8eb70b27a80c92f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_85b2cee532a8edb0a34653ef8ddd138a = $(`<div id="html_85b2cee532a8edb0a34653ef8ddd138a" style="width: 100.0%; height: 100.0%;">         <strong>23 BLUE BAY AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/23-blue-bay-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $710,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-12-11         </div>`)[0];
+                popup_9111b9660cae65abe8eb70b27a80c92f.setContent(html_85b2cee532a8edb0a34653ef8ddd138a);
+            
+        
+
+        marker_e26d99eeee4fe5e5e9146ec86943b895.bindPopup(popup_9111b9660cae65abe8eb70b27a80c92f)
+        ;
+
+        
+    
+    
+            var marker_4799a7cf2d6699ceaf147bc70d149341 = L.marker(
+                [-35.275453095226965, 138.4568596582622],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_ee5be7dee00e468855d1329c5f68a926 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd5c4; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                680k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_4799a7cf2d6699ceaf147bc70d149341.setIcon(div_icon_ee5be7dee00e468855d1329c5f68a926);
+        
+    
+        var popup_5d058b95b05e9f78dabc700ecfd1a01e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d686d8e43b0474092189c04e23ec6f3d = $(`<div id="html_d686d8e43b0474092189c04e23ec6f3d" style="width: 100.0%; height: 100.0%;">         <strong>5A LOVELOCK STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/5a-lovelock-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $680,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: Ray White Seaford<br>         Sale Date: 2024-12-11         </div>`)[0];
+                popup_5d058b95b05e9f78dabc700ecfd1a01e.setContent(html_d686d8e43b0474092189c04e23ec6f3d);
+            
+        
+
+        marker_4799a7cf2d6699ceaf147bc70d149341.bindPopup(popup_5d058b95b05e9f78dabc700ecfd1a01e)
+        ;
+
+        
+    
+    
+            var marker_bbd231ad10d2e5afc5ea1faa2094aa95 = L.marker(
+                [-35.27637842318826, 138.44450220878474],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_2ca9708ffad5fa4c72b7bc0d6f20fc12 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdccb8; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                740k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_bbd231ad10d2e5afc5ea1faa2094aa95.setIcon(div_icon_2ca9708ffad5fa4c72b7bc0d6f20fc12);
+        
+    
+        var popup_368f59a911185f97e1af199702df89c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f1cd851a24d67e036ca7c44ad828531b = $(`<div id="html_f1cd851a24d67e036ca7c44ad828531b" style="width: 100.0%; height: 100.0%;">         <strong>12 STOCK STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/12-stock-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $740,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-12-11         </div>`)[0];
+                popup_368f59a911185f97e1af199702df89c0.setContent(html_f1cd851a24d67e036ca7c44ad828531b);
+            
+        
+
+        marker_bbd231ad10d2e5afc5ea1faa2094aa95.bindPopup(popup_368f59a911185f97e1af199702df89c0)
+        ;
+
+        
+    
+    
+            var marker_cc31fa4f0796a9dec6bd67ffab210b10 = L.marker(
+                [-35.28187279561527, 138.4601100311716],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_f6a66df0224a1ffe3c264f4e81b4916b = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb398; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                885k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_cc31fa4f0796a9dec6bd67ffab210b10.setIcon(div_icon_f6a66df0224a1ffe3c264f4e81b4916b);
+        
+    
+        var popup_65562c636127ef4bcda4030344c4275c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d49b3779d203676c13b9a0a37df4aed = $(`<div id="html_2d49b3779d203676c13b9a0a37df4aed" style="width: 100.0%; height: 100.0%;">         <strong>21 SAPPHIRE WAY ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/21-sapphire-way-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $885,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-09         </div>`)[0];
+                popup_65562c636127ef4bcda4030344c4275c.setContent(html_2d49b3779d203676c13b9a0a37df4aed);
+            
+        
+
+        marker_cc31fa4f0796a9dec6bd67ffab210b10.bindPopup(popup_65562c636127ef4bcda4030344c4275c)
+        ;
+
+        
+    
+    
+            var marker_6daf166611172b1796fe97a707b56373 = L.marker(
+                [-35.28477851625122, 138.45206694464824],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a4108783cf5f83d5e876434190b04d0a = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fc9b7c; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.0m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_6daf166611172b1796fe97a707b56373.setIcon(div_icon_a4108783cf5f83d5e876434190b04d0a);
+        
+    
+        var popup_edcea0db13a83297f85fb45b179a0e26 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cbb9a129bceca7ab5893480563613a23 = $(`<div id="html_cbb9a129bceca7ab5893480563613a23" style="width: 100.0%; height: 100.0%;">         <strong>20 SCRUB AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/20-scrub-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,020,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-06         </div>`)[0];
+                popup_edcea0db13a83297f85fb45b179a0e26.setContent(html_cbb9a129bceca7ab5893480563613a23);
+            
+        
+
+        marker_6daf166611172b1796fe97a707b56373.bindPopup(popup_edcea0db13a83297f85fb45b179a0e26)
+        ;
+
+        
+    
+    
+            var marker_36b19618b477761efb06f2fc95a0bb9a = L.marker(
+                [-35.285863536842825, 138.45255181007423],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_888b6af6a213ccd3dda577b1540ea0c5 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #ea362a; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.6m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_36b19618b477761efb06f2fc95a0bb9a.setIcon(div_icon_888b6af6a213ccd3dda577b1540ea0c5);
+        
+    
+        var popup_b6462bf73a0a44e9ae06599b2e4de943 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d9809bd8bef0fbb9289c5041466b674 = $(`<div id="html_2d9809bd8bef0fbb9289c5041466b674" style="width: 100.0%; height: 100.0%;">         <strong>1 SCRUB COURT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/1-scrub-ct-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,550,000<br>         Beds: 5.0, Baths: 3.0, Cars: 2.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-12-06         </div>`)[0];
+                popup_b6462bf73a0a44e9ae06599b2e4de943.setContent(html_2d9809bd8bef0fbb9289c5041466b674);
+            
+        
+
+        marker_36b19618b477761efb06f2fc95a0bb9a.bindPopup(popup_b6462bf73a0a44e9ae06599b2e4de943)
+        ;
+
+        
+    
+    
+            var marker_aa88aea224c02696d8c8a398b2b8d57e = L.marker(
+                [-35.26568089596077, 138.4604767684531],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_63b8c36fd2971ed7fe013871211c5838 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd1be; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                710k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_aa88aea224c02696d8c8a398b2b8d57e.setIcon(div_icon_63b8c36fd2971ed7fe013871211c5838);
+        
+    
+        var popup_671a3adf8f7d36d5dc0999a08224261f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_276d99a0dd1e5380103df6c47a18f4df = $(`<div id="html_276d99a0dd1e5380103df6c47a18f4df" style="width: 100.0%; height: 100.0%;">         <strong>36A ZEPHYR TERRACE PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/36a-zephyr-terrace-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $710,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: Costello & Co Real Estate<br>         Sale Date: 2024-12-06         </div>`)[0];
+                popup_671a3adf8f7d36d5dc0999a08224261f.setContent(html_276d99a0dd1e5380103df6c47a18f4df);
+            
+        
+
+        marker_aa88aea224c02696d8c8a398b2b8d57e.bindPopup(popup_671a3adf8f7d36d5dc0999a08224261f)
+        ;
+
+        
+    
+    
+            var marker_b1887b2e319296a76e6f80915ebf1286 = L.marker(
+                [-35.26554609523649, 138.4778788506033],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_9dd78e69502200b940a53072288941c5 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb99f; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                855k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_b1887b2e319296a76e6f80915ebf1286.setIcon(div_icon_9dd78e69502200b940a53072288941c5);
+        
+    
+        var popup_35bce6e8654d5ba4da7c9406697223ba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4ddab99003f409ff64f7769070c31da3 = $(`<div id="html_4ddab99003f409ff64f7769070c31da3" style="width: 100.0%; height: 100.0%;">         <strong>22 DIANELLA WAY ALDINGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/22-dianella-way-aldinga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $855,000<br>         Beds: 4.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Harris Real Estate Glenelg<br>         Sale Date: 2024-12-05         </div>`)[0];
+                popup_35bce6e8654d5ba4da7c9406697223ba.setContent(html_4ddab99003f409ff64f7769070c31da3);
+            
+        
+
+        marker_b1887b2e319296a76e6f80915ebf1286.bindPopup(popup_35bce6e8654d5ba4da7c9406697223ba)
+        ;
+
+        
+    
+    
+            var marker_feae1860333c871bd1a6dec501e33d99 = L.marker(
+                [-35.27588282797134, 138.44535936210022],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_c466ad0e28e36eb3def4b859c5955eca = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcdb9; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                731k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_feae1860333c871bd1a6dec501e33d99.setIcon(div_icon_c466ad0e28e36eb3def4b859c5955eca);
+        
+    
+        var popup_bf8f84c3da2cc88ede05d711c7aabcf3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d84ccee57d6fee25e5f6524424fa5bc = $(`<div id="html_0d84ccee57d6fee25e5f6524424fa5bc" style="width: 100.0%; height: 100.0%;">         <strong>54 CROSER AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/54-croser-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $731,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-05         </div>`)[0];
+                popup_bf8f84c3da2cc88ede05d711c7aabcf3.setContent(html_0d84ccee57d6fee25e5f6524424fa5bc);
+            
+        
+
+        marker_feae1860333c871bd1a6dec501e33d99.bindPopup(popup_bf8f84c3da2cc88ede05d711c7aabcf3)
+        ;
+
+        
+    
+    
+            var marker_51664d44b8e84267cc1338516e92f10a = L.marker(
+                [-35.28257321340294, 138.46018249303043],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_f1a02ed1e8ad1ea8c7852db955c1510b = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fedbcc; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                650k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_51664d44b8e84267cc1338516e92f10a.setIcon(div_icon_f1a02ed1e8ad1ea8c7852db955c1510b);
+        
+    
+        var popup_60292b180a72dfc1a74735cb83e4b54f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b93b3e0074052c1a77aa623e1560c3e = $(`<div id="html_6b93b3e0074052c1a77aa623e1560c3e" style="width: 100.0%; height: 100.0%;">         <strong>105 EMERALD BOULEVARD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/105-emerald-boulevard-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $650,500<br>         Beds: 3.0, Baths: 2.0, Cars: nan<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-12-05         </div>`)[0];
+                popup_60292b180a72dfc1a74735cb83e4b54f.setContent(html_6b93b3e0074052c1a77aa623e1560c3e);
+            
+        
+
+        marker_51664d44b8e84267cc1338516e92f10a.bindPopup(popup_60292b180a72dfc1a74735cb83e4b54f)
+        ;
+
+        
+    
+    
+            var marker_be66ec011edd9cc742543d47fb084362 = L.marker(
+                [-35.27211182077413, 138.4515247095366],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_c387806d632c46a6770eaa116d8f16ca = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcc2aa; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                800k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_be66ec011edd9cc742543d47fb084362.setIcon(div_icon_c387806d632c46a6770eaa116d8f16ca);
+        
+    
+        var popup_98048043bb17653f5ed06b7e7d6c197e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27cd86248d1e94fded7a58ab263ef3af = $(`<div id="html_27cd86248d1e94fded7a58ab263ef3af" style="width: 100.0%; height: 100.0%;">         <strong>19 MARTIN CRESCENT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/19-martin-cres-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $800,500<br>         Beds: 3.0, Baths: 1.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-12-05         </div>`)[0];
+                popup_98048043bb17653f5ed06b7e7d6c197e.setContent(html_27cd86248d1e94fded7a58ab263ef3af);
+            
+        
+
+        marker_be66ec011edd9cc742543d47fb084362.bindPopup(popup_98048043bb17653f5ed06b7e7d6c197e)
+        ;
+
+        
+    
+    
+            var marker_252b742689c8981f06820f9b163657cd = L.marker(
+                [-35.283931281040964, 138.45618606339056],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_c9f678526af14ff850f6ac28f3369656 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcbfa7; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                820k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_252b742689c8981f06820f9b163657cd.setIcon(div_icon_c9f678526af14ff850f6ac28f3369656);
+        
+    
+        var popup_427e4642d4fb791d2bb7a470230aea67 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a437921c52943bc2cd7ab486dea8d25 = $(`<div id="html_3a437921c52943bc2cd7ab486dea8d25" style="width: 100.0%; height: 100.0%;">         <strong>33 WHISTLERS AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/33-whistlers-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $820,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-12-05         </div>`)[0];
+                popup_427e4642d4fb791d2bb7a470230aea67.setContent(html_3a437921c52943bc2cd7ab486dea8d25);
+            
+        
+
+        marker_252b742689c8981f06820f9b163657cd.bindPopup(popup_427e4642d4fb791d2bb7a470230aea67)
+        ;
+
+        
+    
+    
+            var marker_4a9f6fcaaf276f401b56ed245e9cee2d = L.marker(
+                [-35.26737700916183, 138.46247903543846],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_9271ecef97277acb45c13a44070b6c17 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fedaca; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                655k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_4a9f6fcaaf276f401b56ed245e9cee2d.setIcon(div_icon_9271ecef97277acb45c13a44070b6c17);
+        
+    
+        var popup_a72e53afe3e8470d5e4c90e57ca63045 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc2bf5c9407076f8e5bf01a8b5d66c30 = $(`<div id="html_fc2bf5c9407076f8e5bf01a8b5d66c30" style="width: 100.0%; height: 100.0%;">         <strong>10 HOLDEN STREET PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/10-holden-st-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $655,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-12-05         </div>`)[0];
+                popup_a72e53afe3e8470d5e4c90e57ca63045.setContent(html_fc2bf5c9407076f8e5bf01a8b5d66c30);
+            
+        
+
+        marker_4a9f6fcaaf276f401b56ed245e9cee2d.bindPopup(popup_a72e53afe3e8470d5e4c90e57ca63045)
+        ;
+
+        
+    
+    
+            var marker_716f7525036114d556d571d200f1da27 = L.marker(
+                [-35.277465916689195, 138.44835172382128],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_45b073c73c1a705853fb0adc81ad6135 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #feeae0; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                515k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_716f7525036114d556d571d200f1da27.setIcon(div_icon_45b073c73c1a705853fb0adc81ad6135);
+        
+    
+        var popup_ef7d127ce98aaf89a02275d0c9c9ec87 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e99123af36fb28e1cf6ce29d52040ce = $(`<div id="html_8e99123af36fb28e1cf6ce29d52040ce" style="width: 100.0%; height: 100.0%;">         <strong>2/10 POLDEN STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/2/10-polden-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $515,000<br>         Beds: 2.0, Baths: 1.0, Cars: nan<br>         Sold by: Harris Real Estate Blackwood<br>         Sale Date: 2024-12-03         </div>`)[0];
+                popup_ef7d127ce98aaf89a02275d0c9c9ec87.setContent(html_8e99123af36fb28e1cf6ce29d52040ce);
+            
+        
+
+        marker_716f7525036114d556d571d200f1da27.bindPopup(popup_ef7d127ce98aaf89a02275d0c9c9ec87)
+        ;
+
+        
+    
+    
+            var marker_173618e7d39856259246ae3d2bd0d637 = L.marker(
+                [-35.27887158839539, 138.45194931812506],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_983a60dd069b0a90cd3a7723153d22b3 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd5c4; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                680k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_173618e7d39856259246ae3d2bd0d637.setIcon(div_icon_983a60dd069b0a90cd3a7723153d22b3);
+        
+    
+        var popup_f5c3dc056914051e872dcee9fc471f52 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9e34b40d3526e93e2482e77fd7bc8e7 = $(`<div id="html_d9e34b40d3526e93e2482e77fd7bc8e7" style="width: 100.0%; height: 100.0%;">         <strong>184 ALDINGA BEACH ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/184-aldinga-beach-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $680,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: Century 21 Southcoast<br>         Sale Date: 2024-12-02         </div>`)[0];
+                popup_f5c3dc056914051e872dcee9fc471f52.setContent(html_d9e34b40d3526e93e2482e77fd7bc8e7);
+            
+        
+
+        marker_173618e7d39856259246ae3d2bd0d637.bindPopup(popup_f5c3dc056914051e872dcee9fc471f52)
+        ;
+
+        
+    
+    
+            var marker_c7fc9d5d0855ec10fb83c33e7a3aa38e = L.marker(
+                [-35.28371931158097, 138.44479013364986],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_de39b1f4fc90d376e149d8cd294071f7 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fb7b5b; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.2m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_c7fc9d5d0855ec10fb83c33e7a3aa38e.setIcon(div_icon_de39b1f4fc90d376e149d8cd294071f7);
+        
+    
+        var popup_55344b7dbb0aaee50b0794369119383b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e871fc29c7bfe7b7ca07b99200971ec3 = $(`<div id="html_e871fc29c7bfe7b7ca07b99200971ec3" style="width: 100.0%; height: 100.0%;">         <strong>42 ALDAM AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/42-aldam-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,200,000<br>         Beds: 4.0, Baths: 2.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-11-29         </div>`)[0];
+                popup_55344b7dbb0aaee50b0794369119383b.setContent(html_e871fc29c7bfe7b7ca07b99200971ec3);
+            
+        
+
+        marker_c7fc9d5d0855ec10fb83c33e7a3aa38e.bindPopup(popup_55344b7dbb0aaee50b0794369119383b)
+        ;
+
+        
+    
+    
+            var marker_2187154c9fda44c2f6deb8050498a232 = L.marker(
+                [-35.28756170598911, 138.44895723167772],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_92f30e2a6dc9ab9cbc1df2c2acf7ca68 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcaa8d; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                940k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_2187154c9fda44c2f6deb8050498a232.setIcon(div_icon_92f30e2a6dc9ab9cbc1df2c2acf7ca68);
+        
+    
+        var popup_ca12e7fea68b06357e77c528c896b5f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0fa70b64b3d261303f13ee1d2f5ed5ab = $(`<div id="html_0fa70b64b3d261303f13ee1d2f5ed5ab" style="width: 100.0%; height: 100.0%;">         <strong>59 BRISTOL STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/59-bristol-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $940,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-11-29         </div>`)[0];
+                popup_ca12e7fea68b06357e77c528c896b5f7.setContent(html_0fa70b64b3d261303f13ee1d2f5ed5ab);
+            
+        
+
+        marker_2187154c9fda44c2f6deb8050498a232.bindPopup(popup_ca12e7fea68b06357e77c528c896b5f7)
+        ;
+
+        
+    
+    
+            var marker_9dadaab2408e638bf53ab940fe165153 = L.marker(
+                [-35.281554777331245, 138.4564805496498],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_efc4b9e88aa45a607afa34aacaa93dad = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcc3ab; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                800k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_9dadaab2408e638bf53ab940fe165153.setIcon(div_icon_efc4b9e88aa45a607afa34aacaa93dad);
+        
+    
+        var popup_d9d6bd899cad4f383fb620e662b19ea3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e3e15a764aca7024dfb2462001d10f2 = $(`<div id="html_2e3e15a764aca7024dfb2462001d10f2" style="width: 100.0%; height: 100.0%;">         <strong>7 OFFSHORE AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/7-offshore-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $800,000<br>         Beds: 3.0, Baths: 2.0, Cars: 3.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-11-29         </div>`)[0];
+                popup_d9d6bd899cad4f383fb620e662b19ea3.setContent(html_2e3e15a764aca7024dfb2462001d10f2);
+            
+        
+
+        marker_9dadaab2408e638bf53ab940fe165153.bindPopup(popup_d9d6bd899cad4f383fb620e662b19ea3)
+        ;
+
+        
+    
+    
+            var marker_9ebb215ba6b618343a505683e6146c87 = L.marker(
+                [-35.27247014831006, 138.46644615943003],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_4624d2ac597b080e8318464ee61ee01c = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcdb9; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                736k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_9ebb215ba6b618343a505683e6146c87.setIcon(div_icon_4624d2ac597b080e8318464ee61ee01c);
+        
+    
+        var popup_6c0353a6e650e2e39ab90e7f00803335 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d135d9af9b7afdfa6c06753de77bd497 = $(`<div id="html_d135d9af9b7afdfa6c06753de77bd497" style="width: 100.0%; height: 100.0%;">         <strong>8 SEAHAVEN WAY ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/8-seahaven-way-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $735,500<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Ray White Seaford<br>         Sale Date: 2024-11-28         </div>`)[0];
+                popup_6c0353a6e650e2e39ab90e7f00803335.setContent(html_d135d9af9b7afdfa6c06753de77bd497);
+            
+        
+
+        marker_9ebb215ba6b618343a505683e6146c87.bindPopup(popup_6c0353a6e650e2e39ab90e7f00803335)
+        ;
+
+        
+    
+    
+            var marker_b7562f36410fa49142ce2c62fd759943 = L.marker(
+                [-35.28371931158097, 138.44479013364986],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_b88a093366b6debb6bbab3061e66b0b3 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcae92; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                915k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_b7562f36410fa49142ce2c62fd759943.setIcon(div_icon_b88a093366b6debb6bbab3061e66b0b3);
+        
+    
+        var popup_7080a1db380144f693b6a946225db3a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b33dda76c764b207b09f437e73785b28 = $(`<div id="html_b33dda76c764b207b09f437e73785b28" style="width: 100.0%; height: 100.0%;">         <strong>40 ALDAM AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/40-aldam-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $915,000<br>         Beds: 3.0, Baths: 1.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-11-27         </div>`)[0];
+                popup_7080a1db380144f693b6a946225db3a7.setContent(html_b33dda76c764b207b09f437e73785b28);
+            
+        
+
+        marker_b7562f36410fa49142ce2c62fd759943.bindPopup(popup_7080a1db380144f693b6a946225db3a7)
+        ;
+
+        
+    
+    
+            var marker_cfdc03b283140ad2562a7024b9d8f5ee = L.marker(
+                [-35.27169871823231, 138.44876259492474],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_606ba433a58b7b594ed7ea6a5787f2cc = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fca285; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                978k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_cfdc03b283140ad2562a7024b9d8f5ee.setIcon(div_icon_606ba433a58b7b594ed7ea6a5787f2cc);
+        
+    
+        var popup_1fceaf238bd3d570f6eba58efe45efda = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9cbac049089dfd978e3b2bce55832b4f = $(`<div id="html_9cbac049089dfd978e3b2bce55832b4f" style="width: 100.0%; height: 100.0%;">         <strong>2A ATKINSON CRESCENT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/2a-atkinson-cres-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $977,500<br>         Beds: 4.0, Baths: 3.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-11-27         </div>`)[0];
+                popup_1fceaf238bd3d570f6eba58efe45efda.setContent(html_9cbac049089dfd978e3b2bce55832b4f);
+            
+        
+
+        marker_cfdc03b283140ad2562a7024b9d8f5ee.bindPopup(popup_1fceaf238bd3d570f6eba58efe45efda)
+        ;
+
+        
+    
+    
+            var marker_5a2c36a7f5a42a74c6692fa22422b419 = L.marker(
+                [-35.27455405485877, 138.44472297289707],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_04eebcf7e7eab3d5ff1f8db7b489e953 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fc8a6a; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.1m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_5a2c36a7f5a42a74c6692fa22422b419.setIcon(div_icon_04eebcf7e7eab3d5ff1f8db7b489e953);
+        
+    
+        var popup_c3c684682f76ff35950a78712e742884 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9eea037da5f73e3e93c2c2ccea9d43c1 = $(`<div id="html_9eea037da5f73e3e93c2c2ccea9d43c1" style="width: 100.0%; height: 100.0%;">         <strong>4 NEVA STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/4-neva-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,115,000<br>         Beds: 4.0, Baths: 2.0, Cars: 3.0<br>         Sold by: McKinnon And Sons Real Estate<br>         Sale Date: 2024-11-26         </div>`)[0];
+                popup_c3c684682f76ff35950a78712e742884.setContent(html_9eea037da5f73e3e93c2c2ccea9d43c1);
+            
+        
+
+        marker_5a2c36a7f5a42a74c6692fa22422b419.bindPopup(popup_c3c684682f76ff35950a78712e742884)
+        ;
+
+        
+    
+    
+            var marker_745800813eaaafb156386ea24708fff3 = L.marker(
+                [-35.27887158839539, 138.45194931812506],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_c34c028ccfed2dccb9b95a6680f273fc = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd4c2; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                690k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_745800813eaaafb156386ea24708fff3.setIcon(div_icon_c34c028ccfed2dccb9b95a6680f273fc);
+        
+    
+        var popup_17493b6e198a01295b833822140850db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45522c1dcb37b1b37da2a4dcb69c017f = $(`<div id="html_45522c1dcb37b1b37da2a4dcb69c017f" style="width: 100.0%; height: 100.0%;">         <strong>63 ALDINGA BEACH ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/63-aldinga-beach-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $690,000<br>         Beds: nan, Baths: nan, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_17493b6e198a01295b833822140850db.setContent(html_45522c1dcb37b1b37da2a4dcb69c017f);
+            
+        
+
+        marker_745800813eaaafb156386ea24708fff3.bindPopup(popup_17493b6e198a01295b833822140850db)
+        ;
+
+        
+    
+    
+            var marker_abd5d2216ddde43d51d6e98f32068d00 = L.marker(
+                [-35.28851171319922, 138.45019357627353],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a9690cdfe158b4fca883bcadfd960d0b = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb79c; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                870k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_abd5d2216ddde43d51d6e98f32068d00.setIcon(div_icon_a9690cdfe158b4fca883bcadfd960d0b);
+        
+    
+        var popup_aef87951cc05e20c78b11598caf64f74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_85bb6fe41c861255057566dfd56e03ef = $(`<div id="html_85bb6fe41c861255057566dfd56e03ef" style="width: 100.0%; height: 100.0%;">         <strong>17 DOVER STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/17-dover-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $870,000<br>         Beds: 5.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_aef87951cc05e20c78b11598caf64f74.setContent(html_85bb6fe41c861255057566dfd56e03ef);
+            
+        
+
+        marker_abd5d2216ddde43d51d6e98f32068d00.bindPopup(popup_aef87951cc05e20c78b11598caf64f74)
+        ;
+
+        
+    
+    
+            var marker_db2cc4a7420606188eb91e787bddd65d = L.marker(
+                [-35.28851171319922, 138.45019357627353],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_3d8588501298630db9320209068fe749 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcbfa7; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                820k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_db2cc4a7420606188eb91e787bddd65d.setIcon(div_icon_3d8588501298630db9320209068fe749);
+        
+    
+        var popup_38da131c9289ab05c009fa47739b7955 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b6e7b7fdd2a4094ddf54034a2ab3e64c = $(`<div id="html_b6e7b7fdd2a4094ddf54034a2ab3e64c" style="width: 100.0%; height: 100.0%;">         <strong>27 DOVER STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/27-dover-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $820,000<br>         Beds: 3.0, Baths: 2.0, Cars: nan<br>         Sold by: Harris Real Estate Wine Coast<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_38da131c9289ab05c009fa47739b7955.setContent(html_b6e7b7fdd2a4094ddf54034a2ab3e64c);
+            
+        
+
+        marker_db2cc4a7420606188eb91e787bddd65d.bindPopup(popup_38da131c9289ab05c009fa47739b7955)
+        ;
+
+        
+    
+    
+            var marker_2bfd661479c19f8d5e87d9affdc2c47f = L.marker(
+                [-35.28232471279112, 138.45574349046905],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_8ccf75f53c12b7626bfae028a1cf79d1 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb89e; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                861k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_2bfd661479c19f8d5e87d9affdc2c47f.setIcon(div_icon_8ccf75f53c12b7626bfae028a1cf79d1);
+        
+    
+        var popup_e1b2c528174341443eb72b2251fe9bb4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e26d229a52008b9ece70291bb73b8145 = $(`<div id="html_e26d229a52008b9ece70291bb73b8145" style="width: 100.0%; height: 100.0%;">         <strong>28 HALCYON CIRCUIT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/28-halcyon-circuit-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $861,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_e1b2c528174341443eb72b2251fe9bb4.setContent(html_e26d229a52008b9ece70291bb73b8145);
+            
+        
+
+        marker_2bfd661479c19f8d5e87d9affdc2c47f.bindPopup(popup_e1b2c528174341443eb72b2251fe9bb4)
+        ;
+
+        
+    
+    
+            var marker_020a53c5f338dc565e0d39de9c282dca = L.marker(
+                [-35.286063844694155, 138.47168137052665],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_1df7243683f72a58c4ef179dfb73a70a = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fb7656; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.2m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_020a53c5f338dc565e0d39de9c282dca.setIcon(div_icon_1df7243683f72a58c4ef179dfb73a70a);
+        
+    
+        var popup_eb433d491301389ddaf7802be6c17457 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63b36d1c4e8505774c8e68c7e1973694 = $(`<div id="html_63b36d1c4e8505774c8e68c7e1973694" style="width: 100.0%; height: 100.0%;">         <strong>100 HOW ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/100-how-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,225,000<br>         Beds: 4.0, Baths: 2.0, Cars: 8.0<br>         Sold by: Harris Real Estate Wine Coast<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_eb433d491301389ddaf7802be6c17457.setContent(html_63b36d1c4e8505774c8e68c7e1973694);
+            
+        
+
+        marker_020a53c5f338dc565e0d39de9c282dca.bindPopup(popup_eb433d491301389ddaf7802be6c17457)
+        ;
+
+        
+    
+    
+            var marker_870fa4af7b29288e911337beb8716709 = L.marker(
+                [-35.2751872550492, 138.4471604488153],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_f764215aca4e4c339437c5e7afd85c32 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee4d8; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                580k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_870fa4af7b29288e911337beb8716709.setIcon(div_icon_f764215aca4e4c339437c5e7afd85c32);
+        
+    
+        var popup_f844c8b7ba7c279b6dfbb09f8bcfeb28 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_002ba642e2ce6259d580e4c1f2a3a055 = $(`<div id="html_002ba642e2ce6259d580e4c1f2a3a055" style="width: 100.0%; height: 100.0%;">         <strong>10 JOBSON STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/10-jobson-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $580,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_f844c8b7ba7c279b6dfbb09f8bcfeb28.setContent(html_002ba642e2ce6259d580e4c1f2a3a055);
+            
+        
+
+        marker_870fa4af7b29288e911337beb8716709.bindPopup(popup_f844c8b7ba7c279b6dfbb09f8bcfeb28)
+        ;
+
+        
+    
+    
+            var marker_74b76a6681a3b4201d3db7455397889e = L.marker(
+                [-35.28006191740053, 138.4519263036059],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_bf4e087cc142337d9615557a0ecbed5f = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcc4ad; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                786k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_74b76a6681a3b4201d3db7455397889e.setIcon(div_icon_bf4e087cc142337d9615557a0ecbed5f);
+        
+    
+        var popup_70a5ff9a56213b7eb6c13372d9349d10 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8445e86928a2c32e129ce2a1b463df74 = $(`<div id="html_8445e86928a2c32e129ce2a1b463df74" style="width: 100.0%; height: 100.0%;">         <strong>87 KIPSY STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/87-kipsy-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $786,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_70a5ff9a56213b7eb6c13372d9349d10.setContent(html_8445e86928a2c32e129ce2a1b463df74);
+            
+        
+
+        marker_74b76a6681a3b4201d3db7455397889e.bindPopup(popup_70a5ff9a56213b7eb6c13372d9349d10)
+        ;
+
+        
+    
+    
+            var marker_64c4aff67a18c274ab72ffe9718461c6 = L.marker(
+                [-35.2832652632827, 138.4677926020306],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_30614b21a815e777ec634d886e1a7832 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcab5; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                755k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_64c4aff67a18c274ab72ffe9718461c6.setIcon(div_icon_30614b21a815e777ec634d886e1a7832);
+        
+    
+        var popup_4314679d10aa08cc73c317c8a817fa3b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d19570231c717e94a34602b12d7f852 = $(`<div id="html_1d19570231c717e94a34602b12d7f852" style="width: 100.0%; height: 100.0%;">         <strong>38 MOSS COURT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/38-moss-ct-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $755,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_4314679d10aa08cc73c317c8a817fa3b.setContent(html_1d19570231c717e94a34602b12d7f852);
+            
+        
+
+        marker_64c4aff67a18c274ab72ffe9718461c6.bindPopup(popup_4314679d10aa08cc73c317c8a817fa3b)
+        ;
+
+        
+    
+    
+            var marker_382c72066963dc94b49fcb869f23ba0f = L.marker(
+                [-35.26900806329879, 138.45724464543204],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_9bb62a4e63e888903d6e83f8c6e73473 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd5c4; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                685k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_382c72066963dc94b49fcb869f23ba0f.setIcon(div_icon_9bb62a4e63e888903d6e83f8c6e73473);
+        
+    
+        var popup_982d8a9f5bee8f069ba112ff5edd2b71 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b634902163057d56e36fa56050771fb7 = $(`<div id="html_b634902163057d56e36fa56050771fb7" style="width: 100.0%; height: 100.0%;">         <strong>164 ROWLEY ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/164-rowley-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $685,000<br>         Beds: 3.0, Baths: 2.0, Cars: 3.0<br>         Sold by: Agency Matters<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_982d8a9f5bee8f069ba112ff5edd2b71.setContent(html_b634902163057d56e36fa56050771fb7);
+            
+        
+
+        marker_382c72066963dc94b49fcb869f23ba0f.bindPopup(popup_982d8a9f5bee8f069ba112ff5edd2b71)
+        ;
+
+        
+    
+    
+            var marker_4d7cb7dbd5967a7fff1621df3aa1d0f5 = L.marker(
+                [-35.271978301117265, 138.46013359180154],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_797b0d0671444ef470505667fd80bfd2 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee1d3; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                610k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_4d7cb7dbd5967a7fff1621df3aa1d0f5.setIcon(div_icon_797b0d0671444ef470505667fd80bfd2);
+        
+    
+        var popup_adf2ffed51eb481fc0640c3c12aec036 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2ad7e142cc979a260a7e18c70df9caaf = $(`<div id="html_2ad7e142cc979a260a7e18c70df9caaf" style="width: 100.0%; height: 100.0%;">         <strong>10 TRENERRY STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/10-trenerry-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $610,000<br>         Beds: 3.0, Baths: 1.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-11-22         </div>`)[0];
+                popup_adf2ffed51eb481fc0640c3c12aec036.setContent(html_2ad7e142cc979a260a7e18c70df9caaf);
+            
+        
+
+        marker_4d7cb7dbd5967a7fff1621df3aa1d0f5.bindPopup(popup_adf2ffed51eb481fc0640c3c12aec036)
+        ;
+
+        
+    
+    
+            var marker_e3ea0f3c8973078f8f99342397b091ab = L.marker(
+                [-35.26554609523649, 138.4778788506033],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_4e47dde897bde4f657c5922772964fc9 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb499; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                880k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_e3ea0f3c8973078f8f99342397b091ab.setIcon(div_icon_4e47dde897bde4f657c5922772964fc9);
+        
+    
+        var popup_649acc17b37f46ea2e8c9494a78baa77 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cea45b6741d65f86256560244d83e7a4 = $(`<div id="html_cea45b6741d65f86256560244d83e7a4" style="width: 100.0%; height: 100.0%;">         <strong>10 DIANELLA WAY ALDINGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/10-dianella-way-aldinga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $880,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-11-20         </div>`)[0];
+                popup_649acc17b37f46ea2e8c9494a78baa77.setContent(html_cea45b6741d65f86256560244d83e7a4);
+            
+        
+
+        marker_e3ea0f3c8973078f8f99342397b091ab.bindPopup(popup_649acc17b37f46ea2e8c9494a78baa77)
+        ;
+
+        
+    
+    
+            var marker_bccd9126803002784d5ed816e8f372f2 = L.marker(
+                [-35.27418893196139, 138.45397572400483],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_7528c7cf4c139b2d6f50b1e9d31845c6 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcb095; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                900k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_bccd9126803002784d5ed816e8f372f2.setIcon(div_icon_7528c7cf4c139b2d6f50b1e9d31845c6);
+        
+    
+        var popup_9c7d2ee65ef92b3134841cdb893981c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e58bfa454b42302464b50ee333081fc = $(`<div id="html_5e58bfa454b42302464b50ee333081fc" style="width: 100.0%; height: 100.0%;">         <strong>52 BUTTERWORTH ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/52-butterworth-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $900,000<br>         Beds: 5.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-11-20         </div>`)[0];
+                popup_9c7d2ee65ef92b3134841cdb893981c4.setContent(html_5e58bfa454b42302464b50ee333081fc);
+            
+        
+
+        marker_bccd9126803002784d5ed816e8f372f2.bindPopup(popup_9c7d2ee65ef92b3134841cdb893981c4)
+        ;
+
+        
+    
+    
+            var marker_f6cfec5221ea2623f392626120a8ee02 = L.marker(
+                [-35.27040824620648, 138.461018148396],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_8cc227574708184475ab508bb82d0bd4 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd0bc; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                720k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_f6cfec5221ea2623f392626120a8ee02.setIcon(div_icon_8cc227574708184475ab508bb82d0bd4);
+        
+    
+        var popup_b6508dc9ccc765ea2fa64cb2ea9d9a38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c829e25b79eb8ddf47d880a2ffc81403 = $(`<div id="html_c829e25b79eb8ddf47d880a2ffc81403" style="width: 100.0%; height: 100.0%;">         <strong>9 GREENLEES PARADE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/9-greenlees-parade-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $720,000<br>         Beds: 4.0, Baths: 2.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-11-20         </div>`)[0];
+                popup_b6508dc9ccc765ea2fa64cb2ea9d9a38.setContent(html_c829e25b79eb8ddf47d880a2ffc81403);
+            
+        
+
+        marker_f6cfec5221ea2623f392626120a8ee02.bindPopup(popup_b6508dc9ccc765ea2fa64cb2ea9d9a38)
+        ;
+
+        
+    
+    
+            var marker_6317d4ecbdf4eed4a1af8b581e417601 = L.marker(
+                [-35.26900806329879, 138.45724464543204],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_526435654762c601644621bcc5a48c57 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd0bc; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                720k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_6317d4ecbdf4eed4a1af8b581e417601.setIcon(div_icon_526435654762c601644621bcc5a48c57);
+        
+    
+        var popup_6618c232b82fc8658e06f65e2f457ed9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_38e1088e8cec879d254b6d269e3152fe = $(`<div id="html_38e1088e8cec879d254b6d269e3152fe" style="width: 100.0%; height: 100.0%;">         <strong>174 ROWLEY ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/174-rowley-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $720,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Harris Real Estate Wine Coast<br>         Sale Date: 2024-11-20         </div>`)[0];
+                popup_6618c232b82fc8658e06f65e2f457ed9.setContent(html_38e1088e8cec879d254b6d269e3152fe);
+            
+        
+
+        marker_6317d4ecbdf4eed4a1af8b581e417601.bindPopup(popup_6618c232b82fc8658e06f65e2f457ed9)
+        ;
+
+        
+    
+    
+            var marker_0a5d6be8d4fba253ef4d9bfae5ed6fdb = L.marker(
+                [-35.26532197845634, 138.4814225],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_ad15bdc7bfdafdc81dbb7850d5b1a988 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcc3ab; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                800k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_0a5d6be8d4fba253ef4d9bfae5ed6fdb.setIcon(div_icon_ad15bdc7bfdafdc81dbb7850d5b1a988);
+        
+    
+        var popup_61ec8a9225dd41a1a598945ff1f89195 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c27992bc648a4d59d23c362531a26dd5 = $(`<div id="html_c27992bc648a4d59d23c362531a26dd5" style="width: 100.0%; height: 100.0%;">         <strong>6 GREVILLEA WAY ALDINGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/6-grevillea-way-aldinga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $800,000<br>         Beds: nan, Baths: nan, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-11-19         </div>`)[0];
+                popup_61ec8a9225dd41a1a598945ff1f89195.setContent(html_c27992bc648a4d59d23c362531a26dd5);
+            
+        
+
+        marker_0a5d6be8d4fba253ef4d9bfae5ed6fdb.bindPopup(popup_61ec8a9225dd41a1a598945ff1f89195)
+        ;
+
+        
+    
+    
+            var marker_4cb5c6e94878d0fe99f6d3985b421c49 = L.marker(
+                [-35.28274232047259, 138.46467857396706],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_6a6c7e883152558000c9594b55395add = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcab5; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                754k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_4cb5c6e94878d0fe99f6d3985b421c49.setIcon(div_icon_6a6c7e883152558000c9594b55395add);
+        
+    
+        var popup_7fee164977e2420b4468859ceccba357 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a20696cccc8c05bb9825620d675bb4c = $(`<div id="html_3a20696cccc8c05bb9825620d675bb4c" style="width: 100.0%; height: 100.0%;">         <strong>13 AQUAMARINE AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/13-aquamarine-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $754,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-11-19         </div>`)[0];
+                popup_7fee164977e2420b4468859ceccba357.setContent(html_3a20696cccc8c05bb9825620d675bb4c);
+            
+        
+
+        marker_4cb5c6e94878d0fe99f6d3985b421c49.bindPopup(popup_7fee164977e2420b4468859ceccba357)
+        ;
+
+        
+    
+    
+            var marker_d3cfe457c41ca07c617bacea1cf76ca8 = L.marker(
+                [-35.272588182382016, 138.4450357028587],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_7d8d4db2a01b880b2333e80b9ade1a5f = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #f75b40; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.4m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_d3cfe457c41ca07c617bacea1cf76ca8.setIcon(div_icon_7d8d4db2a01b880b2333e80b9ade1a5f);
+        
+    
+        var popup_de156fd3ae5d38d11efe2a20088151f2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af6f3de7d44bc0f8b21b9a0a3b4428c3 = $(`<div id="html_af6f3de7d44bc0f8b21b9a0a3b4428c3" style="width: 100.0%; height: 100.0%;">         <strong>189 ESPLANADE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/189-esplanade-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,370,000<br>         Beds: 5.0, Baths: 3.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-11-19         </div>`)[0];
+                popup_de156fd3ae5d38d11efe2a20088151f2.setContent(html_af6f3de7d44bc0f8b21b9a0a3b4428c3);
+            
+        
+
+        marker_d3cfe457c41ca07c617bacea1cf76ca8.bindPopup(popup_de156fd3ae5d38d11efe2a20088151f2)
+        ;
+
+        
+    
+    
+            var marker_0a4e2610295aab441fca74aede5ab499 = L.marker(
+                [-35.26703122389709, 138.45733195322615],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_b63f388a6f02d0721200c316b7625518 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee3d6; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                590k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_0a4e2610295aab441fca74aede5ab499.setIcon(div_icon_b63f388a6f02d0721200c316b7625518);
+        
+    
+        var popup_5e4eb0a33516c01295ba2e11f72e524d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bfe12ddd74624c08062c4268ce1c1400 = $(`<div id="html_bfe12ddd74624c08062c4268ce1c1400" style="width: 100.0%; height: 100.0%;">         <strong>28 ROWLEY ROAD PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/28-rowley-rd-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $590,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Phil McMahon Real Estate Morphett Vale (Rla 60113)<br>         Sale Date: 2024-11-19         </div>`)[0];
+                popup_5e4eb0a33516c01295ba2e11f72e524d.setContent(html_bfe12ddd74624c08062c4268ce1c1400);
+            
+        
+
+        marker_0a4e2610295aab441fca74aede5ab499.bindPopup(popup_5e4eb0a33516c01295ba2e11f72e524d)
+        ;
+
+        
+    
+    
+            var marker_5050962a6acd726cde08b0c6a1b15e5c = L.marker(
+                [-35.27595228734115, 138.45484366520643],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_d9238fd4747ca00c5327e85353635a00 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcdb9; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                735k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_5050962a6acd726cde08b0c6a1b15e5c.setIcon(div_icon_d9238fd4747ca00c5327e85353635a00);
+        
+    
+        var popup_11b367c5da487cf1be7a92de4506cdb0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d23fb1236b80ca56e54750c86bfb260 = $(`<div id="html_0d23fb1236b80ca56e54750c86bfb260" style="width: 100.0%; height: 100.0%;">         <strong>11 GROSVENOR ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/11-grosvenor-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $735,000<br>         Beds: 3.0, Baths: 1.0, Cars: 2.0<br>         Sold by: Century 21 Southcoast<br>         Sale Date: 2024-11-15         </div>`)[0];
+                popup_11b367c5da487cf1be7a92de4506cdb0.setContent(html_0d23fb1236b80ca56e54750c86bfb260);
+            
+        
+
+        marker_5050962a6acd726cde08b0c6a1b15e5c.bindPopup(popup_11b367c5da487cf1be7a92de4506cdb0)
+        ;
+
+        
+    
+    
+            var marker_07a3f097491c89fa32e9306b3cb17247 = L.marker(
+                [-35.268631199999994, 138.4576845],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_4343e2a047ee33037442f2aac0ab610b = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #feeae1; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                510k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_07a3f097491c89fa32e9306b3cb17247.setIcon(div_icon_4343e2a047ee33037442f2aac0ab610b);
+        
+    
+        var popup_545b1d326cb8aeda57667439fa5a16a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98eea7921b30b3643e689301aa66e4b2 = $(`<div id="html_98eea7921b30b3643e689301aa66e4b2" style="width: 100.0%; height: 100.0%;">         <strong>82 QUINLIVEN ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/82-quinliven-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $510,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-11-15         </div>`)[0];
+                popup_545b1d326cb8aeda57667439fa5a16a4.setContent(html_98eea7921b30b3643e689301aa66e4b2);
+            
+        
+
+        marker_07a3f097491c89fa32e9306b3cb17247.bindPopup(popup_545b1d326cb8aeda57667439fa5a16a4)
+        ;
+
+        
+    
+    
+            var marker_2f103e920b410c5bc8827eb73d1e8937 = L.marker(
+                [-35.27247014831006, 138.46644615943003],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_3af46b2b8d0734878bf763b367aa6c7c = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd1be; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                710k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_2f103e920b410c5bc8827eb73d1e8937.setIcon(div_icon_3af46b2b8d0734878bf763b367aa6c7c);
+        
+    
+        var popup_450fe5bba83334d9a18e6a54190f087a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c3979d41e2d1ffb3f8209347e3898644 = $(`<div id="html_c3979d41e2d1ffb3f8209347e3898644" style="width: 100.0%; height: 100.0%;">         <strong>27 SEAHAVEN WAY ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/27-seahaven-way-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $710,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-11-14         </div>`)[0];
+                popup_450fe5bba83334d9a18e6a54190f087a.setContent(html_c3979d41e2d1ffb3f8209347e3898644);
+            
+        
+
+        marker_2f103e920b410c5bc8827eb73d1e8937.bindPopup(popup_450fe5bba83334d9a18e6a54190f087a)
+        ;
+
+        
+    
+    
+            var marker_02b8195ef9d373b0d1f6885f0b055c7c = L.marker(
+                [-35.26953862293898, 138.4694285030876],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_4d74e27eb58bb6f5ddc11f78e495ff8b = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcab5; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                755k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_02b8195ef9d373b0d1f6885f0b055c7c.setIcon(div_icon_4d74e27eb58bb6f5ddc11f78e495ff8b);
+        
+    
+        var popup_a418c05b74fa47aa9328f463c8af045d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3d02f9fdf7480b332666aa6257080b63 = $(`<div id="html_3d02f9fdf7480b332666aa6257080b63" style="width: 100.0%; height: 100.0%;">         <strong>29 COCKLE AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/29-cockle-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $755,000<br>         Beds: 4.0, Baths: 2.0, Cars: nan<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-11-08         </div>`)[0];
+                popup_a418c05b74fa47aa9328f463c8af045d.setContent(html_3d02f9fdf7480b332666aa6257080b63);
+            
+        
+
+        marker_02b8195ef9d373b0d1f6885f0b055c7c.bindPopup(popup_a418c05b74fa47aa9328f463c8af045d)
+        ;
+
+        
+    
+    
+            var marker_3d9289ae0078b3a69f23cf51c03b0daa = L.marker(
+                [-35.27339647032452, 138.4500310420745],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a9712f38390cac51277fc66f797a9a9c = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fc9d7f; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.0m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_3d9289ae0078b3a69f23cf51c03b0daa.setIcon(div_icon_a9712f38390cac51277fc66f797a9a9c);
+        
+    
+        var popup_31e5c45897ae20d5dca2a64dc0cc1d6c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c71505750d4191e93acd173e538d5bc0 = $(`<div id="html_c71505750d4191e93acd173e538d5bc0" style="width: 100.0%; height: 100.0%;">         <strong>3 STIRLING CRESCENT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/3-stirling-cres-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,006,000<br>         Beds: 5.0, Baths: 3.0, Cars: nan<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-11-08         </div>`)[0];
+                popup_31e5c45897ae20d5dca2a64dc0cc1d6c.setContent(html_c71505750d4191e93acd173e538d5bc0);
+            
+        
+
+        marker_3d9289ae0078b3a69f23cf51c03b0daa.bindPopup(popup_31e5c45897ae20d5dca2a64dc0cc1d6c)
+        ;
+
+        
+    
+    
+            var marker_82d6d3e8032aec497740b11fc9c098e8 = L.marker(
+                [-35.275212, 138.44983915],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_abf7952a5d330f0f61f4b5d224ac063d = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fff5f0; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                390k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_82d6d3e8032aec497740b11fc9c098e8.setIcon(div_icon_abf7952a5d330f0f61f4b5d224ac063d);
+        
+    
+        var popup_299aa69bb898402f1a6825865446b27d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f051f0f6d6f526b04705e4a8d04a04a = $(`<div id="html_5f051f0f6d6f526b04705e4a8d04a04a" style="width: 100.0%; height: 100.0%;">         <strong>33 BLACKER ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/33-blacker-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $390,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: LJ Hooker Aldinga / Christies Beach<br>         Sale Date: 2024-11-07         </div>`)[0];
+                popup_299aa69bb898402f1a6825865446b27d.setContent(html_5f051f0f6d6f526b04705e4a8d04a04a);
+            
+        
+
+        marker_82d6d3e8032aec497740b11fc9c098e8.bindPopup(popup_299aa69bb898402f1a6825865446b27d)
+        ;
+
+        
+    
+    
+            var marker_92906e8502bb08c49e3d9069c859c82d = L.marker(
+                [-35.2821811, 138.4679882295538],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_b96a9bd9e001db7e1f5c6d013c61bf3c = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd1be; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                715k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_92906e8502bb08c49e3d9069c859c82d.setIcon(div_icon_b96a9bd9e001db7e1f5c6d013c61bf3c);
+        
+    
+        var popup_6f0d377d06abe67a83cc05aec5160916 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d915e48c1446aad9eb0cfa5589224063 = $(`<div id="html_d915e48c1446aad9eb0cfa5589224063" style="width: 100.0%; height: 100.0%;">         <strong>46 OCHRE DRIVE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/46-ochre-dr-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $715,000<br>         Beds: 3.0, Baths: 2.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-11-07         </div>`)[0];
+                popup_6f0d377d06abe67a83cc05aec5160916.setContent(html_d915e48c1446aad9eb0cfa5589224063);
+            
+        
+
+        marker_92906e8502bb08c49e3d9069c859c82d.bindPopup(popup_6f0d377d06abe67a83cc05aec5160916)
+        ;
+
+        
+    
+    
+            var marker_8fcce984545aba0a50518a48006b1c9c = L.marker(
+                [-35.272588182382016, 138.4450357028587],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_8b4916f7c0e74e211b8a7dfc5a084168 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #f03d2d; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.5m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_8fcce984545aba0a50518a48006b1c9c.setIcon(div_icon_8b4916f7c0e74e211b8a7dfc5a084168);
+        
+    
+        var popup_91b91f9f57bfe92709c79b65e135f475 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0845cd5fa9fb15f0b70879e4a78b3dc = $(`<div id="html_a0845cd5fa9fb15f0b70879e4a78b3dc" style="width: 100.0%; height: 100.0%;">         <strong>65 ESPLANADE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/65-esplanade-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,510,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-11-06         </div>`)[0];
+                popup_91b91f9f57bfe92709c79b65e135f475.setContent(html_a0845cd5fa9fb15f0b70879e4a78b3dc);
+            
+        
+
+        marker_8fcce984545aba0a50518a48006b1c9c.bindPopup(popup_91b91f9f57bfe92709c79b65e135f475)
+        ;
+
+        
+    
+    
+            var marker_7e7bd09095a06320655289ab74dde1c5 = L.marker(
+                [-35.26956951565085, 138.48342818086752],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_835dc069dfb00b1238261d00713b2a00 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fc9576; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.1m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_7e7bd09095a06320655289ab74dde1c5.setIcon(div_icon_835dc069dfb00b1238261d00713b2a00);
+        
+    
+        var popup_454925092ad65e73155ac7d6da0211c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5ab03d0ebb69bdab4a44bce43f0b1f23 = $(`<div id="html_5ab03d0ebb69bdab4a44bce43f0b1f23" style="width: 100.0%; height: 100.0%;">         <strong>377 OLD COACH ROAD ALDINGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/377-old-coach-rd-aldinga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,050,000<br>         Beds: 5.0, Baths: 4.0, Cars: 6.0<br>         Sold by: Harcourts Wine Coast Rla 249515<br>         Sale Date: 2024-11-01         </div>`)[0];
+                popup_454925092ad65e73155ac7d6da0211c5.setContent(html_5ab03d0ebb69bdab4a44bce43f0b1f23);
+            
+        
+
+        marker_7e7bd09095a06320655289ab74dde1c5.bindPopup(popup_454925092ad65e73155ac7d6da0211c5)
+        ;
+
+        
+    
+    
+            var marker_827f82138a93910da9e9c6a50557664e = L.marker(
+                [-35.306334631657904, 138.450405499698],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_8da42683dacebcdcf6a6ea50815e30cf = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcbda4; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                830k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_827f82138a93910da9e9c6a50557664e.setIcon(div_icon_8da42683dacebcdcf6a6ea50815e30cf);
+        
+    
+        var popup_738f589f7325064081eea1248a8aa0c7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_50c3d6830e57c0eebea9f9b764950e5c = $(`<div id="html_50c3d6830e57c0eebea9f9b764950e5c" style="width: 100.0%; height: 100.0%;">         <strong>6 PARROT ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/6-parrot-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $830,000<br>         Beds: 2.0, Baths: 1.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-11-01         </div>`)[0];
+                popup_738f589f7325064081eea1248a8aa0c7.setContent(html_50c3d6830e57c0eebea9f9b764950e5c);
+            
+        
+
+        marker_827f82138a93910da9e9c6a50557664e.bindPopup(popup_738f589f7325064081eea1248a8aa0c7)
+        ;
+
+        
+    
+    
+            var marker_251dbc478b651df609c5cb8bf8785b08 = L.marker(
+                [-35.28450915717367, 138.45384309133516],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a40f94df3befd165dc623e1d1ee61577 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcc4ad; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                786k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_251dbc478b651df609c5cb8bf8785b08.setIcon(div_icon_a40f94df3befd165dc623e1d1ee61577);
+        
+    
+        var popup_7ac642f1cfa1818775de505d52225c6d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3cb9245add8a790e1715a4b1e79087c = $(`<div id="html_f3cb9245add8a790e1715a4b1e79087c" style="width: 100.0%; height: 100.0%;">         <strong>12 POLKINGHORN AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/12-polkinghorn-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $786,000<br>         Beds: 4.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-11-01         </div>`)[0];
+                popup_7ac642f1cfa1818775de505d52225c6d.setContent(html_f3cb9245add8a790e1715a4b1e79087c);
+            
+        
+
+        marker_251dbc478b651df609c5cb8bf8785b08.bindPopup(popup_7ac642f1cfa1818775de505d52225c6d)
+        ;
+
+        
+    
+    
+            var marker_c6d821dbd9e931936f8d0b8f683b4023 = L.marker(
+                [-35.28756170598911, 138.44895723167772],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_8fd96871faa31be954de61d000eb8ad6 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee2d5; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                600k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_c6d821dbd9e931936f8d0b8f683b4023.setIcon(div_icon_8fd96871faa31be954de61d000eb8ad6);
+        
+    
+        var popup_b52882064d855c6ac2570d2dfe577017 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0260bf693128dfbf7087549aad37a208 = $(`<div id="html_0260bf693128dfbf7087549aad37a208" style="width: 100.0%; height: 100.0%;">         <strong>3 BRISTOL STREET ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/3-bristol-st-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $600,000<br>         Beds: nan, Baths: nan, Cars: nan<br>         Sold by: Magain Real Estate - Adelaide<br>         Sale Date: 2024-10-31         </div>`)[0];
+                popup_b52882064d855c6ac2570d2dfe577017.setContent(html_0260bf693128dfbf7087549aad37a208);
+            
+        
+
+        marker_c6d821dbd9e931936f8d0b8f683b4023.bindPopup(popup_b52882064d855c6ac2570d2dfe577017)
+        ;
+
+        
+    
+    
+            var marker_80a108c56f580acfa4838932b46e0c17 = L.marker(
+                [-35.272588182382016, 138.4450357028587],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_331ec433ebc47cc82b1f9f47cb83fe91 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #d21f20; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.7m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_80a108c56f580acfa4838932b46e0c17.setIcon(div_icon_331ec433ebc47cc82b1f9f47cb83fe91);
+        
+    
+        var popup_6ee5da1bd2c6de8329408c2d80d292e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e73afa9976c676428b1c7013c81956c5 = $(`<div id="html_e73afa9976c676428b1c7013c81956c5" style="width: 100.0%; height: 100.0%;">         <strong>165A ESPLANADE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/165a-esplanade-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,700,000<br>         Beds: nan, Baths: nan, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-10-31         </div>`)[0];
+                popup_6ee5da1bd2c6de8329408c2d80d292e6.setContent(html_e73afa9976c676428b1c7013c81956c5);
+            
+        
+
+        marker_80a108c56f580acfa4838932b46e0c17.bindPopup(popup_6ee5da1bd2c6de8329408c2d80d292e6)
+        ;
+
+        
+    
+    
+            var marker_4b8816995b5248eeb1126e80c2f4a4f9 = L.marker(
+                [-35.26900806329879, 138.45724464543204],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_e6fa5831e0e33b2e4ee01b20b6e4c6bb = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee8de; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                527k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_4b8816995b5248eeb1126e80c2f4a4f9.setIcon(div_icon_e6fa5831e0e33b2e4ee01b20b6e4c6bb);
+        
+    
+        var popup_923a5f7b4c5df1da5fb1daa05e9bf009 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d5a9420439380d36713685fff5c9c054 = $(`<div id="html_d5a9420439380d36713685fff5c9c054" style="width: 100.0%; height: 100.0%;">         <strong>3/60 ROWLEY ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/3/60-rowley-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $527,000<br>         Beds: 2.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-10-31         </div>`)[0];
+                popup_923a5f7b4c5df1da5fb1daa05e9bf009.setContent(html_d5a9420439380d36713685fff5c9c054);
+            
+        
+
+        marker_4b8816995b5248eeb1126e80c2f4a4f9.bindPopup(popup_923a5f7b4c5df1da5fb1daa05e9bf009)
+        ;
+
+        
+    
+    
+            var marker_f84554bd97ed3d969e8547b3fa2e315a = L.marker(
+                [-35.28093248762917, 138.46259583259356],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_217a86a22fc980d3ea888ea7ac024119 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd0bc; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                716k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_f84554bd97ed3d969e8547b3fa2e315a.setIcon(div_icon_217a86a22fc980d3ea888ea7ac024119);
+        
+    
+        var popup_9f1e51d3ea40d635d46079a622aba6bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a3461dc684bbcce8bd08142a9b1988b6 = $(`<div id="html_a3461dc684bbcce8bd08142a9b1988b6" style="width: 100.0%; height: 100.0%;">         <strong>4 SIENNA COURT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/4-sienna-ct-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $716,500<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-10-31         </div>`)[0];
+                popup_9f1e51d3ea40d635d46079a622aba6bc.setContent(html_a3461dc684bbcce8bd08142a9b1988b6);
+            
+        
+
+        marker_f84554bd97ed3d969e8547b3fa2e315a.bindPopup(popup_9f1e51d3ea40d635d46079a622aba6bc)
+        ;
+
+        
+    
+    
+            var marker_bc45db7a092e19239966aac52d3edd02 = L.marker(
+                [-35.28005574342128, 138.46483625463705],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_f574b49a50cfe7b7365cf6e0132811ed = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd1be; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                715k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_bc45db7a092e19239966aac52d3edd02.setIcon(div_icon_f574b49a50cfe7b7365cf6e0132811ed);
+        
+    
+        var popup_4784953a8f09ee029039de10db65c97c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58feba502e734a4725b959c5724c4cdf = $(`<div id="html_58feba502e734a4725b959c5724c4cdf" style="width: 100.0%; height: 100.0%;">         <strong>2 TURQUOISE COURT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/2-turquoise-ct-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $715,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-10-31         </div>`)[0];
+                popup_4784953a8f09ee029039de10db65c97c.setContent(html_58feba502e734a4725b959c5724c4cdf);
+            
+        
+
+        marker_bc45db7a092e19239966aac52d3edd02.bindPopup(popup_4784953a8f09ee029039de10db65c97c)
+        ;
+
+        
+    
+    
+            var marker_b6de989e15e4fbd84e9d4a24d4c3bbdc = L.marker(
+                [-35.28274232047259, 138.46467857396706],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_7e427c8824df6364666e117cb62dc470 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd1be; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                712k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_b6de989e15e4fbd84e9d4a24d4c3bbdc.setIcon(div_icon_7e427c8824df6364666e117cb62dc470);
+        
+    
+        var popup_3ed728eb5fa7e394547beb4137edacb8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43b7c0ba9d176eff08a37085fba3735a = $(`<div id="html_43b7c0ba9d176eff08a37085fba3735a" style="width: 100.0%; height: 100.0%;">         <strong>14 AQUAMARINE AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/14-aquamarine-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $712,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Professionals Aldinga & Seaford<br>         Sale Date: 2024-10-30         </div>`)[0];
+                popup_3ed728eb5fa7e394547beb4137edacb8.setContent(html_43b7c0ba9d176eff08a37085fba3735a);
+            
+        
+
+        marker_b6de989e15e4fbd84e9d4a24d4c3bbdc.bindPopup(popup_3ed728eb5fa7e394547beb4137edacb8)
+        ;
+
+        
+    
+    
+            var marker_8c568de5dae220c0c3e058181510475b = L.marker(
+                [-35.28397881485224, 138.4561478465077],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_68fc402b617bbfe6780fd40a6ac7d5de = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcbca2; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                841k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_8c568de5dae220c0c3e058181510475b.setIcon(div_icon_68fc402b617bbfe6780fd40a6ac7d5de);
+        
+    
+        var popup_2386edf6bcae92a7269a20a60e9eb235 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1af1bf6117effcd2de10f6c6ee8cfb9b = $(`<div id="html_1af1bf6117effcd2de10f6c6ee8cfb9b" style="width: 100.0%; height: 100.0%;">         <strong>23 KAURNA AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/23-kaurna-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $841,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-10-29         </div>`)[0];
+                popup_2386edf6bcae92a7269a20a60e9eb235.setContent(html_1af1bf6117effcd2de10f6c6ee8cfb9b);
+            
+        
+
+        marker_8c568de5dae220c0c3e058181510475b.bindPopup(popup_2386edf6bcae92a7269a20a60e9eb235)
+        ;
+
+        
+    
+    
+            var marker_6f5707b62b8bd7700ede53b5aa1d5481 = L.marker(
+                [-35.27588282797134, 138.44535936210022],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_ec6b41cce5a62b59bce5d40a309142da = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcdb9; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                730k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_6f5707b62b8bd7700ede53b5aa1d5481.setIcon(div_icon_ec6b41cce5a62b59bce5d40a309142da);
+        
+    
+        var popup_a87c5b79cfeaae572518632f3bbbdf9e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66db6412d3264b964fba46fb67739891 = $(`<div id="html_66db6412d3264b964fba46fb67739891" style="width: 100.0%; height: 100.0%;">         <strong>7 CROSER AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/7-croser-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $730,000<br>         Beds: 3.0, Baths: 1.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-10-28         </div>`)[0];
+                popup_a87c5b79cfeaae572518632f3bbbdf9e.setContent(html_66db6412d3264b964fba46fb67739891);
+            
+        
+
+        marker_6f5707b62b8bd7700ede53b5aa1d5481.bindPopup(popup_a87c5b79cfeaae572518632f3bbbdf9e)
+        ;
+
+        
+    
+    
+            var marker_81557b389fdb82f297634491b1322e18 = L.marker(
+                [-35.28531769999999, 138.44744495],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_80180a3d832cb2e95b5616e6f3e4d21e = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee0d2; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                620k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_81557b389fdb82f297634491b1322e18.setIcon(div_icon_80180a3d832cb2e95b5616e6f3e4d21e);
+        
+    
+        var popup_7bd22024bb5d4452813c05891764ae1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00b4aaaca2bfa3bd872738c2ba128d2d = $(`<div id="html_00b4aaaca2bfa3bd872738c2ba128d2d" style="width: 100.0%; height: 100.0%;">         <strong>1C STOREY AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/1c-storey-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $620,500<br>         Beds: 2.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-10-28         </div>`)[0];
+                popup_7bd22024bb5d4452813c05891764ae1b.setContent(html_00b4aaaca2bfa3bd872738c2ba128d2d);
+            
+        
+
+        marker_81557b389fdb82f297634491b1322e18.bindPopup(popup_7bd22024bb5d4452813c05891764ae1b)
+        ;
+
+        
+    
+    
+            var marker_804d8be73d1e90c7b766ac4c892fb4bd = L.marker(
+                [-35.26568089596077, 138.4604767684531],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_8895c699f9ac48f690e75fc72c46e3ea = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdcab5; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                755k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_804d8be73d1e90c7b766ac4c892fb4bd.setIcon(div_icon_8895c699f9ac48f690e75fc72c46e3ea);
+        
+    
+        var popup_eacbdf6646e844686b96dc32dc0ae8d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7f0484bcebe9bb59815d6a4eb09802a2 = $(`<div id="html_7f0484bcebe9bb59815d6a4eb09802a2" style="width: 100.0%; height: 100.0%;">         <strong>62 ZEPHYR TERRACE PORT WILLUNGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/62-zephyr-terrace-port-willunga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $755,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-10-28         </div>`)[0];
+                popup_eacbdf6646e844686b96dc32dc0ae8d6.setContent(html_7f0484bcebe9bb59815d6a4eb09802a2);
+            
+        
+
+        marker_804d8be73d1e90c7b766ac4c892fb4bd.bindPopup(popup_eacbdf6646e844686b96dc32dc0ae8d6)
+        ;
+
+        
+    
+    
+            var marker_686948b6d90edcabcb24c78f6d07418c = L.marker(
+                [-35.269332249969274, 138.46623245083995],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_31ff59326917bb4c30da77ca457d26dd = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdc5ae; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                780k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_686948b6d90edcabcb24c78f6d07418c.setIcon(div_icon_31ff59326917bb4c30da77ca457d26dd);
+        
+    
+        var popup_0958b4400c492bf7639668929540343a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f3f277d803200f5f589bcb0983f8d78 = $(`<div id="html_4f3f277d803200f5f589bcb0983f8d78" style="width: 100.0%; height: 100.0%;">         <strong>2 RAZOR AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/2-razor-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $780,000<br>         Beds: 5.0, Baths: 2.0, Cars: nan<br>         Sold by: Harris Real Estate Glenelg<br>         Sale Date: 2024-10-18         </div>`)[0];
+                popup_0958b4400c492bf7639668929540343a.setContent(html_4f3f277d803200f5f589bcb0983f8d78);
+            
+        
+
+        marker_686948b6d90edcabcb24c78f6d07418c.bindPopup(popup_0958b4400c492bf7639668929540343a)
+        ;
+
+        
+    
+    
+            var marker_ec16ce8f89a626570779e2150daef92b = L.marker(
+                [-35.28481959096559, 138.4511508381584],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_af8345946b19c39a6ea707b6c4813e79 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fca78b; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                950k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_ec16ce8f89a626570779e2150daef92b.setIcon(div_icon_af8345946b19c39a6ea707b6c4813e79);
+        
+    
+        var popup_13d3176ad77c48dad6134b5af91a0ff6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8bfa983a591a7fc87333d67b7fe0ab7e = $(`<div id="html_8bfa983a591a7fc87333d67b7fe0ab7e" style="width: 100.0%; height: 100.0%;">         <strong>21 LACY CORAL AVENUE ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/21-lacy-coral-ave-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $950,000<br>         Beds: 4.0, Baths: 2.0, Cars: nan<br>         Sold by: Harris Real Estate Wine Coast<br>         Sale Date: 2024-10-17         </div>`)[0];
+                popup_13d3176ad77c48dad6134b5af91a0ff6.setContent(html_8bfa983a591a7fc87333d67b7fe0ab7e);
+            
+        
+
+        marker_ec16ce8f89a626570779e2150daef92b.bindPopup(popup_13d3176ad77c48dad6134b5af91a0ff6)
+        ;
+
+        
+    
+    
+            var marker_41bc62ae0ad11be895bbed752603e4c2 = L.marker(
+                [-35.310346952445144, 138.45136408811985],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_333a7be07ea2b649b92f808b2d836e87 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcbda4; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                830k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_41bc62ae0ad11be895bbed752603e4c2.setIcon(div_icon_333a7be07ea2b649b92f808b2d836e87);
+        
+    
+        var popup_bec394b25fac3395a226d9418159d052 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c7c5ff7553362f5fd36eddb7b4a93a33 = $(`<div id="html_c7c5ff7553362f5fd36eddb7b4a93a33" style="width: 100.0%; height: 100.0%;">         <strong>23 NARDOO ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/23-nardoo-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $830,000<br>         Beds: 3.0, Baths: 1.0, Cars: 4.0<br>         Sold by: Ray White Unley<br>         Sale Date: 2024-10-15         </div>`)[0];
+                popup_bec394b25fac3395a226d9418159d052.setContent(html_c7c5ff7553362f5fd36eddb7b4a93a33);
+            
+        
+
+        marker_41bc62ae0ad11be895bbed752603e4c2.bindPopup(popup_bec394b25fac3395a226d9418159d052)
+        ;
+
+        
+    
+    
+            var marker_31a727c9e6c30d7364b0f7e34e0830b0 = L.marker(
+                [-35.267405404693726, 138.48114225021845],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_460a717c39b6f7355cd2fcfa3b706181 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fedccd; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                642k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_31a727c9e6c30d7364b0f7e34e0830b0.setIcon(div_icon_460a717c39b6f7355cd2fcfa3b706181);
+        
+    
+        var popup_1589efee653e1f07ea28d38295cb3ec8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10d0fae9b631dda3c7192b72006bf21e = $(`<div id="html_10d0fae9b631dda3c7192b72006bf21e" style="width: 100.0%; height: 100.0%;">         <strong>159 PORT ROAD ALDINGA SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/159-port-rd-aldinga-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $642,500<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: nan<br>         Sale Date: 2024-10-11         </div>`)[0];
+                popup_1589efee653e1f07ea28d38295cb3ec8.setContent(html_10d0fae9b631dda3c7192b72006bf21e);
+            
+        
+
+        marker_31a727c9e6c30d7364b0f7e34e0830b0.bindPopup(popup_1589efee653e1f07ea28d38295cb3ec8)
+        ;
+
+        
+    
+    
+            var marker_73c7eb06a45ce81a19dcb48b5fc22647 = L.marker(
+                [-35.3074333, 138.45058075],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_be2f3191a1ef9a53db315f1020cc0f62 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #f75c41; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                1.4m\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_73c7eb06a45ce81a19dcb48b5fc22647.setIcon(div_icon_be2f3191a1ef9a53db315f1020cc0f62);
+        
+    
+        var popup_b39cfe1ca2e0d8dcaae9d5e512d8651c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_30a3158b7f4716971169053ff26aa60c = $(`<div id="html_30a3158b7f4716971169053ff26aa60c" style="width: 100.0%; height: 100.0%;">         <strong>1 COWRIE ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/1-cowrie-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $1,365,000<br>         Beds: 5.0, Baths: 2.0, Cars: 2.0<br>         Sold by: nan<br>         Sale Date: 2024-10-11         </div>`)[0];
+                popup_b39cfe1ca2e0d8dcaae9d5e512d8651c.setContent(html_30a3158b7f4716971169053ff26aa60c);
+            
+        
+
+        marker_73c7eb06a45ce81a19dcb48b5fc22647.bindPopup(popup_b39cfe1ca2e0d8dcaae9d5e512d8651c)
+        ;
+
+        
+    
+    
+            var marker_98d6c0fe57fd55b13e6e36fef1d8fdbc = L.marker(
+                [-35.28257321340294, 138.46018249303043],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_61009a5d27cd2f84916c05bb80cf2a6f = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdccb8; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                740k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_98d6c0fe57fd55b13e6e36fef1d8fdbc.setIcon(div_icon_61009a5d27cd2f84916c05bb80cf2a6f);
+        
+    
+        var popup_b8d92025c4f59e40cf1f2727899f9920 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2db8c62d023188b48dac1d55e5670f00 = $(`<div id="html_2db8c62d023188b48dac1d55e5670f00" style="width: 100.0%; height: 100.0%;">         <strong>54 EMERALD BOULEVARD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/54-emerald-boulevard-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $740,000<br>         Beds: 3.0, Baths: 2.0, Cars: 1.0<br>         Sold by: Ouwens Casserly Real Estate - Adelaide/Henley Beach<br>         Sale Date: 2024-10-11         </div>`)[0];
+                popup_b8d92025c4f59e40cf1f2727899f9920.setContent(html_2db8c62d023188b48dac1d55e5670f00);
+            
+        
+
+        marker_98d6c0fe57fd55b13e6e36fef1d8fdbc.bindPopup(popup_b8d92025c4f59e40cf1f2727899f9920)
+        ;
+
+        
+    
+    
+            var marker_bb72d435179460f117755ec450e04bd3 = L.marker(
+                [-35.27509951676394, 138.45402483606762],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a52870a21f2ea096a3e4d74b9623df90 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fdd4c2; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                690k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_bb72d435179460f117755ec450e04bd3.setIcon(div_icon_a52870a21f2ea096a3e4d74b9623df90);
+        
+    
+        var popup_206450d5a1b560c5402ea15814494717 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5ee6176a562b8bf07560d631117d0e3 = $(`<div id="html_e5ee6176a562b8bf07560d631117d0e3" style="width: 100.0%; height: 100.0%;">         <strong>6A IRVING ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/6a-irving-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $690,000<br>         Beds: 3.0, Baths: 2.0, Cars: 2.0<br>         Sold by: Ray White Woodcroft<br>         Sale Date: 2024-10-11         </div>`)[0];
+                popup_206450d5a1b560c5402ea15814494717.setContent(html_e5ee6176a562b8bf07560d631117d0e3);
+            
+        
+
+        marker_bb72d435179460f117755ec450e04bd3.bindPopup(popup_206450d5a1b560c5402ea15814494717)
+        ;
+
+        
+    
+    
+            var marker_4aa162fc70ff4c4274e7f024c75fe8ab = L.marker(
+                [-35.28206556949119, 138.4642824702078],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_a6dca500c7e7fb9e125b40251c017ba6 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fcae92; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                916k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_4aa162fc70ff4c4274e7f024c75fe8ab.setIcon(div_icon_a6dca500c7e7fb9e125b40251c017ba6);
+        
+    
+        var popup_46a885490754358478e16a633c2e6aa6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_50970da318da24a3ffa9687074f82e8b = $(`<div id="html_50970da318da24a3ffa9687074f82e8b" style="width: 100.0%; height: 100.0%;">         <strong>14 TANGERINE COURT ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/14-tangerine-ct-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $916,000<br>         Beds: 4.0, Baths: 2.0, Cars: 4.0<br>         Sold by: Magain Real Estate<br>         Sale Date: 2024-10-11         </div>`)[0];
+                popup_46a885490754358478e16a633c2e6aa6.setContent(html_50970da318da24a3ffa9687074f82e8b);
+            
+        
+
+        marker_4aa162fc70ff4c4274e7f024c75fe8ab.bindPopup(popup_46a885490754358478e16a633c2e6aa6)
+        ;
+
+        
+    
+    
+            var marker_36b5920f89ffcef218e714311de80c5c = L.marker(
+                [-35.27887158839539, 138.45194931812506],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_d7f53f362dbffd70d989388185c3828b = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fed8c7; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                670k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_36b5920f89ffcef218e714311de80c5c.setIcon(div_icon_d7f53f362dbffd70d989388185c3828b);
+        
+    
+        var popup_453ae21b7e1be9ac1f4d3e880605c39e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_674d1fe421c6e5e5eff4caee9a2171ef = $(`<div id="html_674d1fe421c6e5e5eff4caee9a2171ef" style="width: 100.0%; height: 100.0%;">         <strong>33 ALDINGA BEACH ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/33-aldinga-beach-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $670,000<br>         Beds: 2.0, Baths: 1.0, Cars: nan<br>         Sold by: nan<br>         Sale Date: 2024-10-10         </div>`)[0];
+                popup_453ae21b7e1be9ac1f4d3e880605c39e.setContent(html_674d1fe421c6e5e5eff4caee9a2171ef);
+            
+        
+
+        marker_36b5920f89ffcef218e714311de80c5c.bindPopup(popup_453ae21b7e1be9ac1f4d3e880605c39e)
+        ;
+
+        
+    
+    
+            var marker_5e0aa1ef7819a75d211e7b3673bd38d9 = L.marker(
+                [-35.268631199999994, 138.4576845],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            var div_icon_61bde646448937b969b2eaceb99b85c0 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"font-size: 10px; color: white; background-color: #fee3d7; \n                border-radius: 50%; text-align: center; width: 30px; height: 30px; \n                line-height: 30px; font-weight: bold;\"\u003e\n                585k\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_5e0aa1ef7819a75d211e7b3673bd38d9.setIcon(div_icon_61bde646448937b969b2eaceb99b85c0);
+        
+    
+        var popup_7385d672ad3424f81e45d157380e59cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_72f7148e12c491c9ad7535dfcf2ff8af = $(`<div id="html_72f7148e12c491c9ad7535dfcf2ff8af" style="width: 100.0%; height: 100.0%;">         <strong>16/60 QUINLIVEN ROAD ALDINGA BEACH SA 5173</strong><br>         <a href="https://www.realestate.com.au/property/16/60-quinliven-rd-aldinga-beach-sa-5173" target="_blank">View on realestate.com.au</a><br>         Price: $585,000<br>         Beds: 3.0, Baths: 1.0, Cars: 1.0<br>         Sold by: Turner Real Estate<br>         Sale Date: 2024-10-09         </div>`)[0];
+                popup_7385d672ad3424f81e45d157380e59cf.setContent(html_72f7148e12c491c9ad7535dfcf2ff8af);
+            
+        
+
+        marker_5e0aa1ef7819a75d211e7b3673bd38d9.bindPopup(popup_7385d672ad3424f81e45d157380e59cf)
+        ;
+
+        
+    
+    
+            var marker_13791b9cf6515e14513ca9821b42a2c4 = L.marker(
+                [-35.291573, 138.4454632],
+                {
+}
+            ).addTo(map_0f7923ca388b902eaec1e63c9309747d);
+        
+    
+            marker_13791b9cf6515e14513ca9821b42a2c4.bindTooltip(
+                `<div>
+                     Buy this?
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
